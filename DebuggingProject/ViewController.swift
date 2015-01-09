@@ -43,6 +43,7 @@ class ViewController: UIViewController {
         for userGuess in userGuesses {
             if (randomNumber == userGuess) {
                 result = "You win"
+                break;
             } else {
                 result = "You lose"
             }
